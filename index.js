@@ -30,7 +30,7 @@ function calculatesFarePrice(start, destination) {
   distance = distanceTravelledInFeet(start, destination)
   switch (distance) {
     case (distance <= 400):
-      fare = "This one is on us.";
+      fare = 0;
       break;
     case (distance > 400 && distance <= 200):
       fare = (distance - 400) * 0.02;
