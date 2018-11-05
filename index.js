@@ -35,10 +35,10 @@ function calculatesFarePrice(start, destination) {
       fare = (distance - 400) * 0.02;
     }
     else if (distance > 2000 && distance <= 2500) {
-      fare = "flat rate";
+      fare = 25;
     }
     else if (distance > 2500) {
-     fare = 25;
+     fare = "cannot travel that far";
     }
   return fare
 }
