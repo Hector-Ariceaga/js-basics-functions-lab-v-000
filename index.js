@@ -1,3 +1,4 @@
-function distanceFromHqInBlocks(start, destination) {
-  let blockDistance = destination - start
+function distanceFromHqInBlocks(blocks) {
+  let blockDistance = 42 - blocks
+  return blockDistance
 }
