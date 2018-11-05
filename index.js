@@ -24,3 +24,5 @@ function distanceTravelledInFeet(start, destination){
   }
   return feetTravelled
 }
+
+function calculatesFairPrice()
