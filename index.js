@@ -9,4 +9,4 @@ function distanceFromHqInBlocks(block) {
   return blockDistance
 }
 
-function 
+function distanceFromHqInFeet()
