@@ -29,7 +29,14 @@ function calculatesFairPrice(start, destination) {
   let fare
   distance = distanceTravelledInFeet(start, destination)
   switch (distance) {
-    case < 400:
-      
+    case <= 400:
+      fare = "This one is on us.";
+    case > 400 && case <= 200:
+      fare = (distance - 400) * 0.02;
+    case > 2000 && case < 2500:
+      fare = "flat rate"
+    case > 2500:
+      fare = "cannot travel that far";
   }
+  return fare
 }
