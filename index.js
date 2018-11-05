@@ -1,4 +1,4 @@
-function distanceFromHqInBlocks(blocks) {
-  let blockDistance = blocks - 42
+function distanceFromHqInBlocks(block) {
+  let blockDistance = block - 42
   return blockDistance
 }
