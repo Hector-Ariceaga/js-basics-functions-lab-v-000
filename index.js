@@ -26,5 +26,9 @@ function distanceTravelledInFeet(start, destination){
 }
 
 function calculatesFairPrice(start, destination) {
-  let 
+  let fare
+  distance = distanceTravelledInFeet(start, destination)
+  switch (distance) {
+    case 
+  }
 }
