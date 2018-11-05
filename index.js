@@ -25,4 +25,6 @@ function distanceTravelledInFeet(start, destination){
   return feetTravelled
 }
 
-function calculatesFairPrice(start, destination)
+function calculatesFairPrice(start, destination) {
+  let 
+}
